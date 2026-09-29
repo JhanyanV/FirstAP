@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Title cards</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Montserrat:wght@500;600&display=block" rel="stylesheet">
+<style>
+  :root { --gold: #f2b84b; --paper: #f8f4ec; --ink: 9, 13, 52; }
+  html, body { margin: 0; width: 1920px; height: 1080px; background: transparent; overflow: hidden; }
+  .card { position: absolute; inset: 0; display: none; color: var(--paper);
+          text-shadow: 0 2px 22px rgba(0, 0, 0, .35); }
+  .card.on { display: block; }
+  .scrim { position: absolute; inset: 0; }
+  .bl { background: radial-gradient(ellipse 72% 78% at 0% 100%, rgba(var(--ink), .80) 0%, rgba(var(--ink), .48) 48%, rgba(var(--ink), 0) 78%); }
+  .tl { background: radial-gradient(ellipse 70% 80% at 0% 0%, rgba(var(--ink), .78) 0%, rgba(var(--ink), .45) 48%, rgba(var(--ink), 0) 78%); }
+  .tc { background: radial-gradient(ellipse 60% 62% at 50% 22%, rgba(var(--ink), .70) 0%, rgba(var(--ink), .38) 50%, rgba(var(--ink), 0) 80%); }
+  .band { background: linear-gradient(to top, rgba(var(--ink), .86) 0%, rgba(var(--ink), .55) 26%, rgba(var(--ink), 0) 52%); }
+  .full { background: radial-gradient(ellipse 80% 80% at 50% 45%, rgba(var(--ink), .78) 0%, rgba(var(--ink), .62) 60%, rgba(var(--ink), .72) 100%); }
+  .block { position: absolute; left: 124px; bottom: 112px; max-width: 1180px; }
+  .block.top { top: 104px; bottom: auto; }
+  .kicker { font: 600 22px/1 Montserrat, sans-serif; letter-spacing: .32em; text-transform: uppercase; color: var(--gold); }
+  .rule { width: 88px; height: 2px; background: var(--gold); margin: 26px 0 22px; }
+  .center .rule { margin-left: auto; margin-right: auto; }
+  .year { font: 600 200px/.86 'Cormorant Garamond', serif; letter-spacing: .01em; }
+  .date { font: 500 30px/1.25 Montserrat, sans-serif; letter-spacing: .08em; margin-top: 22px; }
+  .theme { font: italic 500 48px/1.18 'Cormorant Garamond', serif; margin-top: 20px; }
+  .meta { font: 600 20px/1.5 Montserrat, sans-serif; letter-spacing: .24em; text-transform: uppercase; color: var(--gold); margin-top: 24px; }
+  .h { font: 600 66px/1.06 'Cormorant Garamond', serif; }
+  .sub { font: 500 24px/1.3 Montserrat, sans-serif; letter-spacing: .24em; text-transform: uppercase; margin-top: 4px; }
+  .center { position: absolute; left: 0; right: 0; text-align: center; }
+  .stat, .pillar { position: absolute; bottom: 92px; width: 400px; margin-left: -200px; text-align: center; }
+  .stat b { display: block; font: 600 128px/1 'Cormorant Garamond', serif; color: var(--gold); }
+  .stat span, .pillar span { display: block; font: 600 22px/1.35 Montserrat, sans-serif; letter-spacing: .26em; text-transform: uppercase; margin-top: 10px; }
+  .pillar i { display: block; font: 500 italic 44px/1 'Cormorant Garamond', serif; color: var(--gold); }
+  .pillar .rule { width: 48px; margin: 16px auto 14px; }
+  .logo { height: 230px; }
+  .sponsors { position: absolute; left: 0; right: 0; bottom: 70px; display: flex; justify-content: center; gap: 88px; }
+  .group { text-align: center; }
+  .group .kicker { font-size: 16px; letter-spacing: .3em; margin-bottom: 16px; }
+  .chips { display: flex; gap: 20px; }
+  .chip { width: 210px; height: 90px; background: #fff; border-radius: 14px; display: flex; align-items: center; justify-content: center;
+          box-shadow: 0 10px 30px rgba(0, 0, 0, .25); overflow: hidden; }
+  .chip img { width: 100%; height: 100%; object-fit: cover; }
+</style>
+</head>
+<body>
+<!-- 4: the forum is born -->
+<div class="card" id="s4"><div class="scrim tc"></div>
+  <div class="center" style="top:150px">
+    <img class="logo" src="https://miningforum.am/wp-content/uploads/2026/06/MINING_Armenia_Forum_logo_white.png" alt="">
+    <div class="rule"></div>
+    <div class="sub">Tsaghkadzor · Armenia · since 2024</div>
+  </div>
+</div>
+<!-- 5: 2024 -->
+<div class="card" id="s5"><div class="scrim bl"></div>
+  <div class="block">
+    <div class="kicker">The first forum</div><div class="rule"></div>
+    <div class="year">2024</div>
+    <div class="date">27–28 September · Tsaghkadzor</div>
+    <div class="theme">“Armenia’s Perspectives within the Global Economy”</div>
+    <div class="meta">25+ speakers · 7 international guests</div>
+  </div>
+</div>
+<!-- 6: memorandum -->
+<div class="card" id="s6"><div class="scrim bl"></div>
+  <div class="block">
+    <div class="kicker">Signed on stage · 2024</div><div class="rule"></div>
+    <div class="h">Memorandum of Cooperation</div>
+    <div class="meta" style="color:var(--paper)">Industry · University · Government</div>
+  </div>
+</div>
+<!-- 7: 2025 -->
+<div class="card" id="s7"><div class="scrim bl"></div>
+  <div class="block">
+    <div class="kicker">The forum grows</div><div class="rule"></div>
+    <div class="year">2025</div>
+    <div class="date">3–4 October · Tsaghkadzor</div>
+    <div class="meta">48+ speakers · Memorandum with the Ministry of Economy</div>
+  </div>
+</div>
+<!-- 8: archives -->
+<div class="card" id="s8"><div class="scrim bl"></div>
+  <div class="block">
+    <div class="kicker">In the foyer · 2025</div><div class="rule"></div>
+    <div class="h">Historical materials from the<br>National Archives of Armenia</div>
+  </div>
+</div>
+<!-- 9: numbers -->
+<div class="card" id="s9bg"><div class="scrim band"></div></div>
+<div class="card" id="s9a"><div class="stat" style="left:330px"><b>3</b><span>years</span></div></div>
+<div class="card" id="s9b"><div class="stat" style="left:750px"><b>500+</b><span>participants</span></div></div>
+<div class="card" id="s9c"><div class="stat" style="left:1170px"><b>40+</b><span>speakers</span></div></div>
+<div class="card" id="s9d"><div class="stat" style="left:1590px"><b>20+</b><span>countries</span></div></div>
+<!-- 10: pillars -->
+<div class="card" id="s10bg"><div class="scrim band"></div></div>
+<div class="card" id="s10a"><div class="pillar" style="left:270px"><i>01</i><div class="rule"></div><span>Industry</span></div></div>
+<div class="card" id="s10b"><div class="pillar" style="left:730px"><i>02</i><div class="rule"></div><span>Investment</span></div></div>
+<div class="card" id="s10c"><div class="pillar" style="left:1190px"><i>03</i><div class="rule"></div><span>Innovation</span></div></div>
+<div class="card" id="s10d"><div class="pillar" style="left:1650px"><i>04</i><div class="rule"></div><span>Sustainable<br>development</span></div></div>
+<!-- 11: 2026 -->
+<div class="card" id="s11"><div class="scrim tl"></div>
+  <div class="block top">
+    <div class="kicker">Next edition</div><div class="rule"></div>
+    <div class="year">2026</div>
+    <div class="date">16–17 October · Tsaghkadzor</div>
+    <div class="theme">“From Resources to Opportunities”</div>
+    <div class="meta">Right before COP17 on Biodiversity in Armenia</div>
+  </div>
+</div>
+<!-- 12: end card -->
+<div class="card" id="s12a"><div class="scrim full"></div>
+  <div class="center" style="top:118px">
+    <img class="logo" style="height:250px" src="https://miningforum.am/wp-content/uploads/2026/06/MINING_Armenia_Forum_logo_white.png" alt="">
+    <div class="rule"></div>
+    <div class="kicker" style="font-size:24px">From resources to opportunities</div>
+    <div class="h" style="font-size:72px;margin-top:26px">16–17 October 2026</div>
+    <div class="sub" style="margin-top:12px">Tsaghkadzor, Armenia</div>
+    <div class="kicker" style="margin-top:30px;letter-spacing:.2em;text-transform:none;font-size:26px">miningforum.am</div>
+  </div>
+</div>
+<div class="card" id="s12b">
+  <div class="sponsors">
+    <div class="group"><div class="kicker">Strategic sponsors</div><div class="chips">
+      <div class="chip"><img src="https://miningforum.am/wp-content/uploads/2026/08/zcmc.webp" alt=""></div>
+      <div class="chip"><img src="https://miningforum.am/wp-content/uploads/2026/08/lydian.webp" alt=""></div></div></div>
+    <div class="group"><div class="kicker">General sponsors</div><div class="chips">
+      <div class="chip"><img src="https://miningforum.am/wp-content/uploads/2026/08/Ameria.jpg" alt=""></div>
+      <div class="chip"><img src="https://miningforum.am/wp-content/uploads/2026/09/teghut.webp" alt=""></div></div></div>
+  </div>
+</div>
+</body>
+</html>

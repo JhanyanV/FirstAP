@@ -1,0 +1,101 @@
+{
+ "note": "Higgsfield assets for the Mining Armenia Forum film (keyframes: Nano Banana, clips: Kling 3.0 Pro, voice: Seed Audio 'Imogen').",
+ "scenes": [
+  {
+   "n": 1,
+   "plan": 6.0,
+   "off": 1.0,
+   "keyframe": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_065048_527626dd-db22-4696-bbcd-9efb2ed42bb2.png",
+   "clip": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_070442_d150b9f7-8f95-4599-b2d5-49e4f646231b.mp4",
+   "vo": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_065926_b0d23706-e7b3-4706-89ed-72eb349b19ff.wav"
+  },
+  {
+   "n": 2,
+   "plan": 6.0,
+   "off": 0.6,
+   "keyframe": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_065450_2deb6206-3409-4769-9ff4-1f1e48012fd9.png",
+   "clip": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_070421_6d0b6812-0451-4b74-b9fa-908a2a8532c8.mp4",
+   "vo": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_065925_dca1f184-5335-45e1-a9b0-4639db1b652c.wav"
+  },
+  {
+   "n": 3,
+   "plan": 7.0,
+   "off": 0.5,
+   "keyframe": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_065451_a3bf1352-f23a-4ac7-b064-e6f9a4d444cf.png",
+   "clip": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_070442_da9b5d1b-bb75-4541-8fb9-0318095f47eb.mp4",
+   "vo": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_065926_d4218dae-f391-4bfe-97f1-f0bb3e893db5.wav"
+  },
+  {
+   "n": 4,
+   "plan": 8.0,
+   "off": 0.8,
+   "keyframe": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_065452_be6f15fc-4e4d-4b28-b5d3-6f6b08d43f1b.png",
+   "clip": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_070420_644c954d-5b92-41f5-9d9b-5b1297a9b773.mp4",
+   "vo": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_065926_c8a06782-5382-41d0-b5ce-291cfeac7553.wav"
+  },
+  {
+   "n": 5,
+   "plan": 6.0,
+   "off": 1.2,
+   "keyframe": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_065450_a33032b1-3132-42b1-a060-2eebad8cc1bb.png",
+   "clip": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_070419_e4eb4f5e-31a5-47a9-8f5e-8658dd1d12e5.mp4",
+   "vo": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_065926_1c16594a-22b6-4924-bc30-2ba48d70bff7.wav"
+  },
+  {
+   "n": 6,
+   "plan": 8.0,
+   "off": 0.4,
+   "keyframe": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_065451_cd626d48-5557-4c39-bbf2-63f7f45e696f.png",
+   "clip": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_070419_f38dee33-65f3-4980-99dd-8f8116b19fbe.mp4",
+   "vo": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_065926_d38b805d-f336-49d3-898a-2e7a877de74c.wav"
+  },
+  {
+   "n": 7,
+   "plan": 10.0,
+   "off": 0.9,
+   "keyframe": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_065450_6f3962f0-1df1-426f-86b2-353afa97ff6a.png",
+   "clip": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_070421_c91fe6f2-95c8-455a-9e6f-0fe3a123169e.mp4",
+   "vo": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_065926_35c6aa11-7d99-4e23-b68f-291a810eaa4d.wav"
+  },
+  {
+   "n": 8,
+   "plan": 7.0,
+   "off": 0.6,
+   "keyframe": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_065450_fca3f45d-6420-4488-bbf2-38b310d616e8.png",
+   "clip": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_070441_359168f6-8713-49af-a846-bca5b4c14c33.mp4",
+   "vo": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_065927_77ca746f-d603-462e-b3f3-da02ab7a8fe4.wav"
+  },
+  {
+   "n": 9,
+   "plan": 9.0,
+   "off": 0.8,
+   "keyframe": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_065451_8b829d35-a537-40e1-8822-669e0303b2f6.png",
+   "clip": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_PENDING.mp4",
+   "vo": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_065926_97f18a67-261b-4d0e-b4b0-2a50477d1a01.wav"
+  },
+  {
+   "n": 10,
+   "plan": 8.0,
+   "off": 0.7,
+   "keyframe": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_065451_2b7c2212-82c3-4e05-8a34-f27b47527b12.png",
+   "clip": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_070420_f5a03fcc-a4b7-4613-aea3-a79007782ac4.mp4",
+   "vo": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_065926_2f65a255-052e-493d-917c-6513ed720d49.wav"
+  },
+  {
+   "n": 11,
+   "plan": 9.0,
+   "off": 0.6,
+   "keyframe": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_065451_f7b78b48-d368-480d-9d8a-870c789d85b8.png",
+   "clip": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_070443_b3a6aada-891e-458a-99f7-04e523de6623.mp4",
+   "vo": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_065926_9ef61068-8bc8-456c-98ce-8fcf8861875e.wav"
+  },
+  {
+   "n": 12,
+   "plan": 12.5,
+   "off": 0.8,
+   "keyframe": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_065451_7b428fc0-9128-458a-a24c-1859d9ecd5cb.png",
+   "clip": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_070419_bbf2ef6a-f6c8-462f-b664-20f073ec23da.mp4",
+   "vo": "https://d8j0ntlcm91z4.cloudfront.net/user_3IzttFGMk8gG0HabpSgDIaqgXjZ/hf_20260929_065927_f1c6bc7e-cb0f-4eb4-81bc-1c8d0048188a.wav"
+  }
+ ]
+}
