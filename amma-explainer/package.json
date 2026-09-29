@@ -1,0 +1,33 @@
+{
+  "name": "amma-explainer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Animated explainer about the Armenian Mining and Metallurgy Association (AMMA), built with Remotion",
+  "scripts": {
+    "studio": "remotion studio",
+    "fonts": "node scripts/copy-fonts.mjs",
+    "subs": "tsx scripts/build-docs.ts",
+    "render:16x9": "remotion render AMMAExplainer out/amma-explainer-16x9.mp4",
+    "render:9x16": "remotion render AMMAExplainerVertical out/amma-explainer-9x16.mp4",
+    "render": "npm run subs && npm run render:16x9 && npm run render:9x16",
+    "typecheck": "tsc --noEmit",
+    "stills": "node scripts/stills.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.529",
+    "@remotion/fonts": "4.0.529",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "4.0.529"
+  },
+  "devDependencies": {
+    "@fontsource/noto-sans": "^5.3.0",
+    "@fontsource/noto-sans-armenian": "^5.3.0",
+    "@remotion/bundler": "4.0.529",
+    "@remotion/renderer": "4.0.529",
+    "@types/node": "^26.6.3",
+    "@types/react": "^19.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
