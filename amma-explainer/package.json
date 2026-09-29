@@ -9,9 +9,10 @@
     "subs": "tsx scripts/build-docs.ts",
     "render:16x9": "remotion render AMMAExplainer out/amma-explainer-16x9.mp4",
     "render:9x16": "remotion render AMMAExplainerVertical out/amma-explainer-9x16.mp4",
-    "render": "npm run subs && npm run render:16x9 && npm run render:9x16",
+    "render": "npm run subs && npm run render:16x9 && npm run render:9x16 && npm run finalize",
     "typecheck": "tsc --noEmit",
-    "stills": "node scripts/stills.mjs"
+    "stills": "node scripts/stills.mjs",
+    "finalize": "node scripts/finalize.mjs"
   },
   "dependencies": {
     "@remotion/cli": "4.0.529",

@@ -6,8 +6,8 @@ A 1:59 flat-vector animated explainer about the **Armenian Mining and Metallurgy
 
 | File | What it is |
 |---|---|
-| `out/amma-explainer-16x9.mp4` | Main cut, 1920×1080, 30 fps, no burned-in text track |
-| `out/amma-explainer-9x16.mp4` | Social cut, 1080×1920, 30 fps, with burned-in captions for muted autoplay |
+| `out/amma-explainer-16x9.mp4` | Main cut, 1920×1080, 30 fps, H.264, clean (no burned-in captions) |
+| `out/amma-explainer-9x16.mp4` | Social cut, 1080×1920, 30 fps, H.264, burned-in captions for muted autoplay |
 | `out/amma-explainer.srt` | Subtitles (same timeline for both cuts) |
 | `VOICEOVER.md` | Timed voice-over script with delivery notes and brochure page references |
 | `QUESTIONS.md` | Open questions and editorial decisions for AMMA to confirm |
@@ -47,7 +47,7 @@ Every fact, date, number and name comes from the *AMMA 2026* partner brochure (E
 npm install
 npm run studio          # live preview
 npm run subs            # regenerate out/amma-explainer.srt and VOICEOVER.md from src/script.ts
-npm run render          # subs + both MP4s
+npm run render          # subs + both MP4s + finalize (re-encode to yuv420p, faststart)
 npm run typecheck
 ```
 
